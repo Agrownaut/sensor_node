@@ -13,3 +13,9 @@ get '/widgets' do
   "test"
 end
 
+post '/widgets' do
+  widget = Widget.new(params['widget'])
+  widget.save
+  status 201
+end
+
