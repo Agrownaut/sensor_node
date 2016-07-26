@@ -1,0 +1,25 @@
+methods that we will be making use of from a client node:
+
+-list data from server
+	view everything on the server that is a record related to this node
+
+*-update server db with records from node
+	send available sensor data to server
+	
+
+
+-view list of nodes
+	client view of all nodes they own
+
+*-register node
+	register node on server
+
+
+
+-import configuration of node
+	specifications regarding the sensor data being sent to update the db
+-send diagnostic information
+	information about the node, error codes, status, etc
+-control codes from server to node
+	ways to control the node via server instructions
+
